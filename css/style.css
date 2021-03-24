@@ -98,13 +98,13 @@ a {text-decoration:none;}
   background-image: url(../img/bg2.jpg);
 }
 .background:nth-child(3) {
-  background-image: url(../img/jarvis.mp4);
+  background-image: url(../img/jarvis.webp);
 }
 .background:nth-child(4) {
   background-image: url(../img/bg4.jpg);
 }
 .background:nth-child(5) {
-  background-image: url(../img/ironman1.mp4);
+  background-image: url(../img/ironman1.gif);
 }
 
 /* Set stacking context of slides */
@@ -302,14 +302,12 @@ font-size: 17px;
 
 
 .pricingbadge {
-	width: 250px;
+	width: 310px;
   max-width: 100%;
   background-color: rgba(0,0,0,0.9);
-  height: 250px;
+  height: 310px;
   border-radius: 50%;
-  padding-top: 5%;
-  padding-left: 3%;
-  padding-right: 3%;
+ 
 	color:rgba(255,255,255,0.5);
 	line-height: 1.4;
 	margin-left:20px;
@@ -330,7 +328,8 @@ font-size: 17px;
     font-size: 18px;
     font-weight: 450;
     text-transform: uppercase;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
+    padding-top: 50px;
 }
 
 .pricing_menu__row {
@@ -662,13 +661,23 @@ a.map {border-bottom: 1px dashed;    color: #fff;}
 	text-align:left;
 	padding:40px 60px;
 	font-family:Roboto Condensed;
+  
 }
 .pagearea h1.entry-title, .pagearea h1.page-headline {
 	font-family: Oswald;
     font-size: 21px;
     color: rgba(255,255,255,0.7);
 	letter-spacing: 1px;
+  margin-left: 20px;
+
+  
 }
+
+.pagearea p{
+  margin-left: 20px;
+}
+
+
 .pagearea h1.page-headline {
     margin-bottom: 0;
     color: #fff;
